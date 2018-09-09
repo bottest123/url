@@ -67,19 +67,17 @@ opt99 = types.InlineQueryResultArticle('opt99', 'Invalid url. Try with http://',
 
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
-    bot.reply_to(message, "Welcome!\nText me a link.\n\nRate the bot:\nhttps://telegram.me/storebot?start=UrlProBot")
+    bot.reply_to(message, "Welcome!\nText me a link.\n\nJoin Our Channel :\nhttps://t.me/hackersinhere")
 
 @bot.message_handler(commands=['info'])
 def send_welcome(message):
     info = ('This bot is under constant development!\n'
         'If you have any question or suggestion,\n'
-        'please, talk to me!\nTwitter: GabRF\n'
-        'Telegram: @GabrielRF\n'
-        'Website: http://gabrf.com\n'
-        '\nRate the bot:\nhttps://telegram.me/storebot?start=UrlProBot'
-        '\nSupport the project:\nhttp://grf.xyz/paypal'
-        '\n\nThis bot is now open-source:'
-        '\nhttps://github.com/GabrielRF/telegram-urlprobot')
+        'please, talk to me!\nTwitter: amitpandey12311\n'
+        'Telegram: @hackedyouagain\n'
+        'Website: http://sciencein.me\n'
+        '\nJoin our Main Channel:\nhttps://t.me/hackersinhere'
+        '\nJoin our Second Channel:\nhttp://t.me/scienceinme')
     bot.reply_to(message, info)
 
 @bot.message_handler(func=lambda m: True)
